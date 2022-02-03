@@ -2,7 +2,7 @@
 * PONER FONDO EN LA PAGINA 
 */
 .navegador{
-    background-color:#f0b898;
+    background-color:#f5c3a7;
 }
 
 .footer{
@@ -11,9 +11,14 @@
 
 h5{
     color:#b38f76;
-   
 }
-
+.distinto{
+    color:#2e251f;
+}
 .tamano{
     width:30%;
+}
+
+.columna{
+    background-color:#dfbc9f;
 }
