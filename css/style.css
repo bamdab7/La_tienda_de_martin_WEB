@@ -12,9 +12,11 @@
 h5{
     color:#b38f76;
 }
-.distinto{
-    color:#2e251f;
+h5{
+    background-color:white;
+    opacity: 80%;
 }
+
 .tamano{
     width:30%;
 }
