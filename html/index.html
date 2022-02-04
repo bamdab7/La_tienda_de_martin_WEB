@@ -88,13 +88,24 @@
             </div>
         </div>
         <div class="col-9">
-            <div class="row"> <!--texto-->
+            <div class="row mt-2"> <!--texto-->
                 <p>Sed porttitor urna quis ipsum tincidunt, <strong>a pretium magna venenatis</strong> . Nullam vehicula dapibus porta. Phasellus 
                     eget luctus urna. Suspendisse tincidunt augue sit amet accumsan facilisis. Mauris <strong>tincidunt felis</strong>  id fringilla imperdiet. Vivamus malesuada tincidunt 
                     pellentesque. Praesent rutrum orci eu tellus interdum, quis dictum dolor tempor.</p>
             </div>
-            <div class="row"> <!--tres imagenes con toltip-->
-                
+            <div class="row mt-4"> <!--tres imagenes con toltip-->
+                <div class="col-3">
+                    <img class="img-fluid " src="../img/fotos/10-zach-lavine-nathaniel-s-butler.jpg" alt="lavine"   data-bs-toggle="tooltip" data-bs-placement="bottom" title="Zach Lavine">
+                </div>
+                <div class="col-3">
+                    <img class="img-fluid" src="../img/fotos/01fqcgy124jabs5bkjem.jpg" alt="derozan" data-bs-toggle="tooltip" data-bs-placement="bottom" title="DeRozan">
+                </div>
+                <div class="col-3">
+                    <img class="img-fluid" src="../img/fotos/ja_morant_over_kevin_love.jpg" alt="morant" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ja Mourant">
+                </div>
+                <div class="col-3">
+                    <img class="img-fluid" src="../img/fotos/lebron_james_shot_embed_-e1489863793807.jpg" alt="lebron" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Lebron James">
+                </div>
             </div>
         </div>
     </div>
@@ -124,5 +135,14 @@
     </nav>
 
 
+
+
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        </script>
 </body>
 </html>
